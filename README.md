@@ -10,6 +10,15 @@ To run, use a HTTP server. I use a simple Python script, but many other methods 
 python3 -m http.server
 ```
 
+## Rules
+
+* Specimens with a white dot have a mutation
+* Specimens with green dot have the 'predate' mutation, allowing them to consume the other species
+* Each species start out with a population of 5
+* Vegitation regenerates when there are less then 10 left in the environment
+* First species to wipe the other out wins
+
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
