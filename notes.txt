@@ -1,0 +1,49 @@
+NOTES
+
+Predator
+Prey
+Food source
+Mutations
+Environment
+offspring production
+
+
+
+
+
+
+
+
+
+-Prey
+hunger
+xp
+drive
+speed
+awareness
+
+-Predator
+hunger
+xp
+drive
+speed
+awareness
+foodie (boolean)
+
+
+constraints:
+    must have 100% health and 100% hunger to mate
+    each time mating occurs, life drops 10%
+    each time prey eats, 10% hunger addition
+    every 10 seconds, hunger drops 5
+    probability of initial mutation: 5%
+    probability of mutation with 1 parent present: 20%
+    probability of mutation with 2 parents present: 75%
+
+
+
+
+
+
+
+
